@@ -1,0 +1,8 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: .   # Set the context to the root directory
+      dockerfile: Dockerfile   # Specify the Dockerfile location
+    ports:
+      - "3000:3000"
